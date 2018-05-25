@@ -83,6 +83,7 @@ exports[`Testing Login component renders as expected 1`] = `
     </View>
     <Button
       TouchableComponent={[Function]}
+      backgroundColor="#03A9F4"
       buttonStyle={
         Object {
           "borderRadius": 0,
@@ -102,7 +103,6 @@ exports[`Testing Login component renders as expected 1`] = `
         }
       }
       onPress={[Function]}
-      raised={true}
       title="Login"
     />
     <Divider

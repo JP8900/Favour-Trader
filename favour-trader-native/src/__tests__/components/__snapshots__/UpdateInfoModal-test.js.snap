@@ -108,58 +108,26 @@ exports[`Testing UpdateInfoModal component renders as expected 1`] = `
           placeholder="About"
         />
       </View>
-      <View
-        style={
+      <Button
+        TouchableComponent={[Function]}
+        backgroundColor="#03A9F4"
+        buttonStyle={
           Object {
-            "flexDirection": "row",
-            "justifyContent": "space-around",
+            "marginTop": 10,
           }
         }
-      >
-        <Button
-          TouchableComponent={[Function]}
-          buttonStyle={
-            Object {
-              "marginBottom": 15,
-              "marginTop": 15,
-              "width": 150,
-            }
+        clear={false}
+        disabled={false}
+        iconRight={false}
+        loadingProps={
+          Object {
+            "color": "white",
+            "size": "small",
           }
-          clear={false}
-          disabled={false}
-          iconRight={false}
-          loadingProps={
-            Object {
-              "color": "white",
-              "size": "small",
-            }
-          }
-          onPress={[Function]}
-          title="update Info"
-        />
-        <Button
-          TouchableComponent={[Function]}
-          buttonStyle={
-            Object {
-              "backgroundColor": "red",
-              "marginBottom": 15,
-              "marginTop": 15,
-              "width": 150,
-            }
-          }
-          clear={false}
-          disabled={false}
-          iconRight={false}
-          loadingProps={
-            Object {
-              "color": "white",
-              "size": "small",
-            }
-          }
-          onPress={[Function]}
-          title="Close"
-        />
-      </View>
+        }
+        onPress={[Function]}
+        title="update Info"
+      />
       <View />
     </Card>
   </Component>

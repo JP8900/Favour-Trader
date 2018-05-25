@@ -2,30 +2,27 @@
 
 exports[`Testing ProfileSkills component renders as expected 1`] = `
 <View>
-  <Card>
-    <ButtonGroup
-      buttons={
-        Array [
-          "Has",
-          "Wants",
-        ]
+  <ButtonGroup
+    buttons={
+      Array [
+        "Has",
+        "Wants",
+      ]
+    }
+    containerBorderRadius={3}
+    containerStyle={
+      Object {
+        "height": 30,
       }
-      containerBorderRadius={3}
-      containerStyle={
-        Object {
-          "height": 30,
-        }
-      }
-      onPress={[Function]}
-      selectMultiple={false}
-      selectedBackgroundColor="pink"
-      selectedIndex={0}
-      selectedIndexes={Array []}
-    />
-    <View>
-      <List />
-    </View>
-  </Card>
-  <View />
+    }
+    onPress={[Function]}
+    selectMultiple={false}
+    selectedBackgroundColor="pink"
+    selectedIndex={0}
+    selectedIndexes={Array []}
+  />
+  <View>
+    <List />
+  </View>
 </View>
 `;

@@ -267,7 +267,7 @@ export default class HomeScreen extends Component {
     }
 
     render() {
-        const { recipientFirstName } = this.props.navigation.state.params;
+        const  {recipientFirstName } = this.props.navigation.state.params;
         return (
             <View>
                 <Text h3>Trade With {recipientFirstName}</Text>

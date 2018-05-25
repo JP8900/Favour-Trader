@@ -87,6 +87,5 @@ exports[`Testing ProfileCard component renders as expected 1`] = `
     </View>
   </Card>
   <View />
-  <View />
 </View>
 `;
